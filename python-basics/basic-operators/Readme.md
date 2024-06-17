@@ -10,3 +10,7 @@
 
 
 
+2. Floor Division 
+- A // (double slash) sign is an integer division operator where the results are always rounded.
+
+![alt text](image.png)
