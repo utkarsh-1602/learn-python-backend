@@ -1,0 +1,5 @@
+# Ignore Python virtual environment
+my_env/
+
+# Ignore SQLite database file
+db.sqlite3
