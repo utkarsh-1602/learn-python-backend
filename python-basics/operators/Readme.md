@@ -77,9 +77,16 @@ print(var != 0)
 ![alt text](image-2.png)
 
 
-### Left shift (<<) and right shift (>>)
+### Left shift (<<) 
+
+- The bitwise left shift operation (<<) shifts the bits of the number to the left by the specified number of positions. Bits shifted out from the left are discarded, and new bits coming in from the right are set to 0.
+
+- [Refer q6.py](q6.py)
+- [Refer q7.py](q7.py)
+- [Refer q8.py](q8.py)
+
+### right shift (>>)
 
 - The bitwise right shift operation (>>) shifts the bits of the number to the right by the specified number of positions. Bits shifted out from the right are discarded, and new bits coming in from the left are set to 0.
-- The bitwise left shift operation (<<) shifts the bits of the number to the left by the specified number of positions. Bits shifted out from the left are discarded, and new bits coming in from the right are set to 0.
-- [Refer q6.py](q6.py)
 
+- [Refer q8.py](q8.py)
