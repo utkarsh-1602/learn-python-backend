@@ -14,6 +14,11 @@
 
 - The command source my_env/bin/activate is used to activate a virtual environment in Unix-based systems (like Linux and macOS). 
 
+- It’s a good idea now to pin your dependencies. This records the versions of all the Python libraries currently installed in your virtual environment.
+
+        (venv) $ python -m pip freeze > requirements.txt
+
+Note : freeze Generates a list of installed packages and their versions
 
 # Creating a sample Project 
 
