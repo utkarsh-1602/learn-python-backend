@@ -62,6 +62,7 @@ print("d2's instance variable is equal to:", d2.instance_var)
 - To get access to a class variable, simply access it using the class name, and then provide the variable name.
 - Similarly to instance variables, class variables are shown in the class's `__dict__` dictionary.
 
+
 ```python
 class Demo:
     class_var = 'shared variable'
@@ -71,3 +72,16 @@ print(Demo.__dict__)
 ```
 
 - [Refer q4.py](q4.py)
+
+- As a class variable is present before any instance of the class is created, it can be used to store some meta data relevant to the class, rather than to the instances. fixed information like description, configuration, or identification values; mutable information like the number of instances created (if we add a code to increment the value of a designated variable every time we create a class instance)
+- A class variable is a class property that exists in just one copy, and it is stored outside any class instance.
+- Because it is owned by the class itself, all class variables are shared by all instances of the class. They will therefore generally have the same value for every instance; butas the class variable is defined outside the object, it is not listed in the object's `__dict__`.
+- When you want to set or change a value of the class variable, you should access it via the class, but not the class instance, as you can do for reading.
+
+
+- [Refer q5.py](q5.py)
+
+- When you try to set a value for the class variable using the object (a variable referring to the object or self keyword) but not the class, you are creating an instance variable that holds the same name as the class variable.
+
+- [Refer q6.py](q6.py)
+- [Refer q7.py](q7.py)
