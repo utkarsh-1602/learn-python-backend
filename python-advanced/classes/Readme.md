@@ -75,7 +75,7 @@ print(Demo.__dict__)
 
 - As a class variable is present before any instance of the class is created, it can be used to store some meta data relevant to the class, rather than to the instances. fixed information like description, configuration, or identification values; mutable information like the number of instances created (if we add a code to increment the value of a designated variable every time we create a class instance)
 - A class variable is a class property that exists in just one copy, and it is stored outside any class instance.
-- Because it is owned by the class itself, all class variables are shared by all instances of the class. They will therefore generally have the same value for every instance; butas the class variable is defined outside the object, it is not listed in the object's `__dict__`.
+- Because it is owned by the class itself, all class variables are shared by all instances of the class. They will therefore generally have the same value for every instance; but as the class variable is defined outside the object, it is not listed in the object's `__dict__`.
 - When you want to set or change a value of the class variable, you should access it via the class, but not the class instance, as you can do for reading.
 
 
@@ -85,3 +85,11 @@ print(Demo.__dict__)
 
 - [Refer q6.py](q6.py)
 - [Refer q7.py](q7.py)
+- [Refer q8.py](q8.py)
+
+
+### Question on Class and Instance Variables
+
+![alt text](image.png)
+
+### Answer : [Q9.py](./q9.py)
