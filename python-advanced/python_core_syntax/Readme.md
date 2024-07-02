@@ -17,6 +17,12 @@
 number = 10
 print(number.__add__(20))
 ```
+
+```python
+mystring = 'abc'
+print(mystring.__add__('def'))
+```
+
 [Refer q1.py](./q1.py)
 
 - Now the below code will cause an error, because python does not know how to perform addition on the two Person class objects.
