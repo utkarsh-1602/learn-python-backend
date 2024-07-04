@@ -52,3 +52,15 @@ simple_hello()
 - In Python, decorators can be made more flexible and universal by accepting arguments. This allows the same decorator to be used with different parameters, enhancing functionality without altering the core functions.
 
 [Refer q5.py](./q5.py)
+
+## Decorator Stacking 
+- Decorator stacking is a technique in Python where multiple decorators are applied to a single function. This allows you to layer multiple functionalities or modifications on top of each other in a specific order.
+- When you stack decorators, they are applied from the innermost (bottom) to the outermost (top) decorator. This means the decorator closest to the function is applied first, and the one farthest from the function is applied last.
+
+[Refer q6.py](./q6.py)
+
+## Project : Timestamp Logger 
+
+![alt text](image.png)
+
+[Refer q7.py](./q7.py)
