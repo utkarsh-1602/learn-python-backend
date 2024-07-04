@@ -56,3 +56,5 @@ You cannot access the private attribute outside the class : [Refer q2.py](./q2.p
 - The `cls` parameter allows you to access class-level variables and methods within the class method.
 
 [Refer q3.py](./q3.py)
+
+[Refer q4.py](./q4.py)
