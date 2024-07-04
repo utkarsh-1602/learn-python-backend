@@ -64,3 +64,34 @@ simple_hello()
 ![alt text](image.png)
 
 [Refer q7.py](./q7.py)
+
+
+## decorator function with classes
+
+- Creating decorators using classes can provide more flexibility and encapsulation compared to function-based decorators.
+- A class-based decorator typically defines a `__call__` method to make the instance callable, just like a regular function.
+- Instead of wrapping individual methods with function decorators, class decorators are ways to manage classes or wrap special method calls into additional logic that manages or extends instances that are created.
+
+[Refer q8.py](./q8.py)
+
+
+## decorator with arguments 
+
+-  class-based decorator with arguments in Python is a powerful tool for enhancing the functionality of functions or methods. It allows you to pass parameters to the decorator itself, enabling more flexible and reusable code. The decorator class should have an `__init__` method to accept arguments, and a `__call__` method to make the instance callable like a function.
+
+steps: 
+
+1. use `__init__` method to store the arguments passed to the decorator.
+2. Implement the `__call__` method to define the logic that should be added to the decorated function.
+3.  the `__call__` method, define and return a wrapper function that adds the desired behavior and calls the original function.
+
+[Refer q9.py](./q9.py)
+
+## function decorating a class 
+
+- Decorating a class with a function-based decorator can be useful for adding or modifying the behavior of class methods, injecting properties, or modifying the class itself.
+- function-based decorators can be useful for scenarios where you want to apply the same decorator logic to both functions and classes, or when you want to create more flexible and reusable decorators.
+
+[Refer q10.py](./q10.py)
+
+
