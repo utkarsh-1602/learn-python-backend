@@ -5,7 +5,7 @@
 - when you define any attribute with `__` double underscores in the start of the attribute name, it becomes the private attribute. 
 
 
-# Instance Method
+# Instance Methods
 
 - Instance methods in Python are functions defined within a class that operate on instances (objects) of that class. These methods are associated with an instance of the class and can access and modify instance attributes.
 
@@ -47,7 +47,7 @@ Program 2 : [Refer q1.py](./q1.py)
 
 You cannot access the private attribute outside the class : [Refer q2.py](./q2.py)
 
-# Class Method
+# Class Methods
 
 - In Python, class methods are methods that are bound to the class rather than to instances of the class. They can be called on either the class itself or on instances of the class. 
 - Class methods are defined using the @`classmethod` **decorator**.
@@ -58,3 +58,24 @@ You cannot access the private attribute outside the class : [Refer q2.py](./q2.p
 [Refer q3.py](./q3.py)
 
 [Refer q4.py](./q4.py)
+
+# Static Methods 
+
+- In Python, a static method is a method that belongs to a class but does not operate on an instance or the class itself.
+- Static methods do not take the self or cls parameters. Instead, they behave like regular functions that are scoped within a class, providing a namespace.
+- Static methods are defined using the `@staticmethod` decorator.
+
+[Refer q5.py](./q5.py)
+
+### Question: Validating iban number 
+![alt text](image.png)
+
+### Answer: [Refer q6.py](./q6.py)
+
+
+
+
+# Project 
+![alt text](image-1.png)
+
+## Answer : [Reference q7.py](./q7.py)
