@@ -36,4 +36,9 @@ Example 1 : Let's create an example where we have a `Book` class and an `Author`
 -  A good rule of thumb is to prefer composition over inheritance (often summarized as "composition over inheritance") when possible, as it tends to lead to more flexible and maintainable code.
 - To favor composition over inheritance is a design principle that gives the design higher flexibility, as you can choose which domain-specific objects should be incorporated into your ultimate object. It's like arming your base machine with tooling, dedicated to running a specific task, but not building a wide hierarchy structure of classes covering all possible hardware combinations.
 
-    
+
+[Refer q1.py](./q1.py)
+
+[Refer q2.py](./q2.py)
+
+[Refer q3.py](./q3.py)
