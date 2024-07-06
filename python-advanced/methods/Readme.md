@@ -3,7 +3,7 @@
 - In Python, **attribute privacy** is a matter of convention rather than strict enforcement by the language itself. The use of double underscores (`__`) at the beginning of an attribute name in a class is a convention to name-mangle the attribute, effectively making it harder to access directly from outside the class. This is often referred to as name **mangling**.
 
 - when you define any attribute with `__` double underscores in the start of the attribute name, it becomes the private attribute. 
-
+- when you define any attribute with `_` single underscore in the start of the attribute name, it becomes the protected attribute. 
 
 # Instance Methods
 
