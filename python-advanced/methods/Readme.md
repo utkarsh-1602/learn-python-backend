@@ -5,6 +5,32 @@
 - when you define any attribute with `__` double underscores in the start of the attribute name, it becomes the private attribute. 
 - when you define any attribute with `_` single underscore in the start of the attribute name, it becomes the protected attribute. 
 
+# Magic/Dunder Methods 
+
+- In Python, magic methods (or dunder methods) are special methods that have double underscores (`__`) at the beginning and end of their names.
+- These methods allow you to define how objects of your class behave with operators and built-in functions in Python.
+- They are called "magic" or "dunder" methods because they are often used behind the scenes by Python's interpreter.
+
+Here are some common magic methods and their purposes:
+
+## Object Initialization 
+
+`__init__(self, ...)`: Constructor method that initializes an object when it is created.
+
+## Object Deletion
+
+`__del__(self)`: Destructor method that cleans up an object when it is deleted (not guaranteed to be called in all contexts).
+
+## Object Representation 
+
+`__str__` : The `__str__` method in Python is a special method used to define the string representation of an object. This method is called by the built-in `str()` function and by the print function to convert an object to a string. The string returned by the `__str__` method is meant to be readable and informative, often used for display purposes.
+
+`__repr__(self)`: Called by repr(object) to compute the "official" string representation of an object, meant for developers to understand the object's state.
+
+
+and there are many more... please refer to the documentation of magic/dunder methods in python for more information.
+
+
 # Instance Methods
 
 - Instance methods in Python are functions defined within a class that operate on instances (objects) of that class. These methods are associated with an instance of the class and can access and modify instance attributes.
@@ -66,6 +92,7 @@ You cannot access the private attribute outside the class : [Refer q2.py](./q2.p
 - Static methods are defined using the `@staticmethod` decorator.
 
 [Refer q5.py](./q5.py)
+
 
 ### Question: Validating iban number 
 ![alt text](image.png)
