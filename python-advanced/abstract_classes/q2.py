@@ -19,6 +19,6 @@ class RedField(BluePrint):
 myinstance01 = GreenField()
 myinstance01.hello()
 
-myinstance02 = RedField()
+# myinstance02 = RedField()
 
 # the RedField class is still recognized as an abstract one, because it inherits all elements of its super class, which is abstract, and the RedField class does not override the abstract hello method

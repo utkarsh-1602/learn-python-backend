@@ -46,3 +46,6 @@ In this case, the `ValueError` is explicitly linked to the `ZeroDivisionError`, 
 ### Traceback attribute 
 
 Python allows us to operate on the traceback details because each exception object (not only chained ones) owns a `__traceback__` attribute.
+
+- 
+In Python, the traceback attribute in exceptions is inherent for both implicit and explicit chained exceptions.

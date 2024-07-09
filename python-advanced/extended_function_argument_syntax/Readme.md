@@ -41,6 +41,9 @@ func(1, 4)   # Outputs: 1 4 3
 
 In Python, asterisks are used to denote that args and kwargs parameters are not ordinary parameters and should be unpacked, as they carry multiple items.
 
+-----
+
+*args refers to a tuple of all not explicitly expected arguments; **kwargs refers to a dictionary of all not explicitly expected keyword arguments
 ```python 
 def combiner(a, b, *args, **kwargs):
     print(a, type(a))
